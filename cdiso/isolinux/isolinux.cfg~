@@ -1,0 +1,6 @@
+DEFAULT test
+
+label test
+	kernel /isolinux/mboot.c32
+	append /kernel.elf
+
